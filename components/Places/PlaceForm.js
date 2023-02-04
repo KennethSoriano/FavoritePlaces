@@ -4,10 +4,10 @@ import { Colors } from "../../constants/colors";
 import ImagePicker from "./ImagePicker";
 
 function PlaceForm() {
-    const [enteredTitle, setEnteredTitle] = useState('');
+    const [enteredText, setEnteredText] = useState('');
 
     function changeTitleHandler(enteredText) {
-        setEnteredTitle(enteredText);
+        setEnteredText(enteredText);
     }
 
     return (
