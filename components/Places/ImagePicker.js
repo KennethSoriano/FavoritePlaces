@@ -1,6 +1,7 @@
-import { View, Alert, StyleSheet, Text, Image, Image} from "react-native";
+import { View, Alert, StyleSheet, Text, Image} from "react-native";
 import { launchCameraAsync, useCameraPermissions, PermissionStatus } from "expo-image-picker";
 import { useState } from "react";
+
 import OutlinedButton from "../UI/OutlinedButton";
 import { Colors } from "../../constants/colors";
 

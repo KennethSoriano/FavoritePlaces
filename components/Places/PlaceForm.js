@@ -1,5 +1,6 @@
 import { View, Text, ScrollView, TextInput, StyleSheet } from "react-native";
 import {useState} from 'react';
+
 import { Colors } from "../../constants/colors";
 import ImagePicker from "./ImagePicker";
 import LocationPicker from "./LocationPicker";
@@ -25,7 +26,7 @@ function PlaceForm() {
             <LocationPicker />
         </ScrollView>
     );
-}
+};
 
 export default PlaceForm;
 
