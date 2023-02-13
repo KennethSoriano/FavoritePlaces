@@ -8,12 +8,12 @@ import Button from "../UI/Button";
 import { Place } from "../../models/place";
 
 function PlaceForm({onCreatePlace}) {
-    const [enteredText, setEnteredText] = useState('');
+    const [enteredTitle, setEnteredTitle] = useState('');
     const [selectedImage, setSelectedImage] = useState();
     const [pickedLocation, setPickedLocation] = useState();
 
     function changeTitleHandler(enteredText) {
-        setEnteredText(enteredText);
+        setEnteredTitle(enteredText);
     }
 
     function takeImageHandler(imageUri) {
