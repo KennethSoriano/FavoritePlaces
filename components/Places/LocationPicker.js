@@ -16,7 +16,6 @@ function LocationPicker() {
 
     const [locationPermissionInformation, requestPermission] = useForegroundPermissions();
 
-
     useEffect(() => {
         if (isFocused && route.params) {
 
