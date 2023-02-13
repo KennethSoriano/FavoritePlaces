@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import PlacesList from "../components/Places/PlacesList";
 
 function AllPlaces({route}) {
-    const [loadedPlaces, setLoadedPlaces] = useState();
+    const [loadedPlaces, setLoadedPlaces] = useState([]);
 
     const isFocused = useIsFocused();
 
